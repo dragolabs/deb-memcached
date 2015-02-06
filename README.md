@@ -16,7 +16,7 @@ Use build.sh with Jenkins or in your terminal.
 You'll find your .deb in the _pkg directory.
 
 ```bash
-$ ./build.sh -m 'John Smith' -o 'my_org' -v 1.5.1.2
+$ ./build.sh -m 'John Smith' -o 'my_org' -v 1.4.22
 
 [... many symbols ...]
 
