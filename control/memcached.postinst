@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+
+if [ -x "/etc/init.d/memcached" ]; then
+  update-rc.d memcached defaults >/dev/null
+  invoke-rc.d memcached start || exit $?
+fi
+

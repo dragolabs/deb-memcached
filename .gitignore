@@ -1,7 +1,8 @@
 *
 
+!control/*
 !.gitignore
 !README.md
 !build.sh
 !.travis.yml
-!control
+
